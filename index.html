@@ -14,13 +14,16 @@
 <body>
 
 <header>
-    <h1>Lens AI Testing Solutions</h1>
-    <p>Clarity and Confidence in AI and Software Testing</p>
+    <!-- Logo Integration -->
+    <div class="logo-container">
+        <img src="assets/logo.png" alt="Lens AI Testing Solutions Logo" class="logo">
+    </div>
+    <h1>Clarity and Confidence in AI and Software Testing</h1>
 
     <nav>
         <ul>
-            <li><a href="case-studies.html">Case Studies</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -33,9 +36,53 @@
             to ensure reliable, maintainable, and scalable software and AI solutions.
         </p>
         <div class="cta-buttons">
-            <a href="case-studies.html" class="btn-primary">Explore Case Studies</a>
-            <a href="contact.html" class="btn-secondary">Contact Us</a>
+            <a href="#case-studies" class="btn-primary">Explore Case Studies</a>
+            <a href="#contact" class="btn-secondary">Contact Us</a>
         </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies">
+        <h2>Case Studies</h2>
+        <div class="case-study">
+            <h3>AI Chatbot Validation</h3>
+            <p><strong>Challenge:</strong> Ensuring reliable, safe, and business-aligned chatbot responses.</p>
+            <p><strong>Approach:</strong> End-to-end automated testing with AI-assisted test generation.</p>
+            <p><strong>Outcome:</strong> 60% reduction in response errors and high confidence in AI outputs.</p>
+        </div>
+
+        <div class="case-study">
+            <h3>Machine Learning Recommendation System</h3>
+            <p><strong>Challenge:</strong> Validating recommendation algorithm for accuracy and fairness.</p>
+            <p><strong>Approach:</strong> Automated testing framework integrated into CI/CD pipelines.</p>
+            <p><strong>Outcome:</strong> Improved reliability and mitigated bias in model predictions.</p>
+        </div>
+
+        <div class="case-study">
+            <h3>AI-Powered Analytics Dashboard</h3>
+            <p><strong>Challenge:</strong> Ensuring accurate reporting from multiple AI-driven data sources.</p>
+            <p><strong>Approach:</strong> Performance and functional testing integrated into CI/CD.</p>
+            <p><strong>Outcome:</strong> Delivered reliable metrics and reduced production errors by 40%.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>To discuss a project or explore how Lens AI Testing Solutions can support your team, reach out today.</p>
+
+        <div class="contact-info">
+            <p><strong>Contact:</strong> Harry Bevan</p>
+            <p><strong>Mobile:</strong> 07854 605175</p>
+            <p><strong>Email:</strong> Placeholder*</p>
+        </div>
+
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 </main>
 
