@@ -17,3 +17,25 @@
 
 .btn-primary { background-color: #0052cc; color: #fff; }
 .btn-secondary { background-color: #f0f0f0; color: #333; }
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 12px 25px;
+    background-color: #0052cc;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #003d99;
+}
